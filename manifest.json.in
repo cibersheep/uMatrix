@@ -1,16 +1,15 @@
 {
     "name": "umatrix.larreamikel",
-    "description": "description of uMatrix",
+    "description": "uMatrix is a Matrix protocol client for Ubuntu Touch.",
     "architecture": "@CLICK_ARCH@",
     "title": "uMatrix",
     "hooks": {
         "uMatrix": {
             "apparmor": "uMatrix/uMatrix.apparmor",
-            "desktop":  "uMatrix/uMatrix.desktop"
+            "desktop": "uMatrix/uMatrix.desktop"
         }
     },
     "version": "0.1",
     "maintainer": "Mikel Larrea <developer@larreamikel.com>",
-    "framework" : "ubuntu-sdk-15.04.6"
+    "framework": "ubuntu-sdk-15.04.6"
 }
-
