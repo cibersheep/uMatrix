@@ -1,7 +1,10 @@
 # uMatrix
 uMatrix is a Matrix protocol client for Ubuntu Touch.
 
-![](uMatrix/logo.svg)
+![](uMatrix/logo.png)
+
+To have more information or to talk about this app, join the room:
+`#uMatrix:matrix.org`
 
 To know more about Matrix go to https://matrix.org/
 
@@ -18,10 +21,10 @@ First, libqmatrixclient has to be compiled. Follow the instructions from https:/
 or in short, in the `uMatrix/lib` folder:
 
 ```
-mkdir build_dir
-cd build_dir
-cmake .. # Pass -DCMAKE_PREFIX_PATH and -DCMAKE_INSTALL_PREFIX here if needed
-cmake --build . --target all
+$ mkdir build_dir
+$ cd build_dir
+$ cmake .. # Pass -DCMAKE_PREFIX_PATH and -DCMAKE_INSTALL_PREFIX here if needed
+$ cmake --build . --target all
 ```
 
 Once the library has been compiled, the app code should be compiled too. This time in the ubuntu sdk. The building instructions for the clickable environment will be released soon.
