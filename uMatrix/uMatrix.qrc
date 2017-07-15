@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>About.qml</file>
+        <file>RoomView.qml</file>
+        <file>Login.qml</file>
+        <file>logo.png</file>
+        <file>Theme.qml</file>
+        <file>RoomList.qml</file>
+        <file>ChatRoom.qml</file>
+        <file>jschat.js</file>
+    </qresource>
+</RCC>

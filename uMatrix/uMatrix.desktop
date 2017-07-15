@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=uMatrix
+Exec=uMatrix
+Icon=uMatrix/uMatrix.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

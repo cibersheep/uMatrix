@@ -1,0 +1,16 @@
+{
+    "name": "umatrix.larreamikel",
+    "description": "description of uMatrix",
+    "architecture": "@CLICK_ARCH@",
+    "title": "uMatrix",
+    "hooks": {
+        "uMatrix": {
+            "apparmor": "uMatrix/uMatrix.apparmor",
+            "desktop":  "uMatrix/uMatrix.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Mikel Larrea <developer@larreamikel.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
