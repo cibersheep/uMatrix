@@ -13,7 +13,18 @@ This application also takes important parts of the code base of Tensor by David 
 Ubunu-SDK (this section will vary with the clickable environment inclusion).
 
 ## Building
-This code should compile in the ubuntu sdk. The building istructions for the clickable environment will be released soon.
+First, libqmatrixclient has to be compiled. Follow the instructions from https://github.com/QMatrixClient/libqmatrixclient/blob/master/README.md
+
+or in short, in the `uMatrix/lib` folder:
+
+```
+mkdir build_dir
+cd build_dir
+cmake .. # Pass -DCMAKE_PREFIX_PATH and -DCMAKE_INSTALL_PREFIX here if needed
+cmake --build . --target all
+```
+
+Once the library has been compiled, the app code should be compiled too. This time in the ubuntu sdk. The building instructions for the clickable environment will be released soon.
 
 
 ## Installation
