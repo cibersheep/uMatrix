@@ -65,7 +65,7 @@ Page {
         Repeater {
             model: ListModel {
                 ListElement {
-                    text: "Author: Mikel Larrea.\n\n"
+                    text: "Author: Mikel Larrea.\n Source Code: https://github.com/LarreaMikel/uMatrix \n\n "
                 }
                 ListElement {
                     text: "This program uses libqmatrixclient\n Copyright (C) 2015-2017 Felix Rohrbach kde@fxrh.de and others \n #quaternion:matrix.org"
