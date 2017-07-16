@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-16 02:09+0000\n"
+"PO-Revision-Date: 2017-07-16 04:22+0200\n"
+"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/About.qml:21
+msgid "About..."
+msgstr "Quant a "
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/About.qml:33
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Login.qml:23
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Main.qml:177
+msgid "Back"
+msgstr "Enrere"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/About.qml:102
+msgid "Share Debug Logs"
+msgstr "Comparteix el registre d'errades"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Login.qml:11
+msgid "Login..."
+msgstr "Inicia la sessió"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Main.qml:41
+msgid "[ uMatrix ]"
+msgstr "[ uMatrix ]"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Main.qml:64
+msgid "Menu"
+msgstr "Menú"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/Main.qml:165
+msgid "room"
+msgstr "habitació"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/WelcomePage.qml:20
+msgid ""
+"Welcome to uMatrix!<br/>            <br/>            uMatrix is a program "
+"that allows you to use the Matrix network."
+msgstr ""
+"Us donem la benvinguda a l'uMatrix!<br/>            <br/>            "
+"L'uMatrix és una aplicació que us permet usar la xarxa Matrix."
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/WelcomePage.qml:36
+msgid "To use uMatrix, you need to login with your matrix <i>user</i>."
+msgstr ""
+"Per usar l'uMatrix, heu de iniciar la sessió amb el vostre <i>usuari</i> de "
+"Matrix."
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/WelcomePage.qml:42
+msgid "Matrix ID:"
+msgstr "ID de Matrix:"
+
+#. TRANSLATORS: Example nickname
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/uMatrix/uMatrix/WelcomePage.qml:51
+msgid "chattyman"
+msgstr "chattyman"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Code_Samples/uMatrix-otravez/build-uMatrix-UbuntuSDK_for_device_armhf_GCC_armhf_ubuntu_sdk_15_04-Release/uMatrix/uMatrix.desktop.h:1
+msgid "uMatrix"
+msgstr "uMatrix"
