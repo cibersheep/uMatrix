@@ -4,10 +4,11 @@
         <file>About.qml</file>
         <file>RoomView.qml</file>
         <file>Login.qml</file>
-        <file>logo.png</file>
         <file>Theme.qml</file>
         <file>RoomList.qml</file>
         <file>ChatRoom.qml</file>
         <file>jschat.js</file>
+        <file>umatrix.svg</file>
+        <file>logo.png</file>
     </qresource>
 </RCC>
