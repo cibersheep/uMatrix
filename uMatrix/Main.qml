@@ -45,18 +45,8 @@ MainView {
                                 dividerColor: UbuntuColors.warmGrey
                 }
                 leadingActionBar {
-                    numberOfSlots: 2
+                    numberOfSlots: 1
                     actions: [
-                        Action {
-                            id: aboutAction
-                            iconName: "info"
-                            text: i18n.tr('About')
-                            onTriggered: {
-                                pageMain.visible = false;
-                                mainPageStack.push(Qt.resolvedUrl("About.qml"))
-                            }
-                        },
-
                        Action {
                             id: actionLogin
                             iconName: "navigation-menu"
@@ -70,8 +60,23 @@ MainView {
                        }
                     ]
                 }
+                trailingActionBar {
+                    numberOfSlots: 1
+                    actions: [
+						Action {
+								id: aboutAction
+								iconName: "info"
+								text: i18n.tr('About')
+								onTriggered: {
+									pageMain.visible = false;
+									mainPageStack.push(Qt.resolvedUrl("About.qml"))
+								}
+							}
+                    ]
+                }
             }
 
+    
 
             function resync() {
                 if(!initialised) {
